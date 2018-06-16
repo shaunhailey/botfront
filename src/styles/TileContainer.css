@@ -1,0 +1,14 @@
+.table1 {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  /* width: 100%; */
+  border-style: ridge;
+  border-width: thin;
+  border-color: orange;
+}
+.box {
+  background-color: rgb(190, 143, 99);
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Jack John",
+    "address": "123 Some St",
+    "citation": true,
+    "citationResults": {
+      "violation": "123451",
+      "violationDate": "01/01/2016",
+      "isScumbag": true
+    }
+}
+{
+    "name": "Jack John II",
+    "address": "456 Some St",
+    "citation": true,
+    "citationResults": {
+      "violation": "123452",
+      "violationDate": "01/01/2015",
+      "isScumbag": false
+    }
+}
+{
+    "name": "Jack John III",
+    "address": "789 Some St",
+    "citation": true,
+    "citationResults": {
+      "violation": "123453",
+      "violationDate": "01/01/2014",
+      "isScumbag": true
+    }
+}
+{
+    "name": "Jack John IV",
+    "address": "012 Some St",
+    "citation": true,
+    "citationResults": {
+      "violation": "123454",
+      "violationDate": "01/01/2013",
+      "isScumbag": false
+    }
+}
+{
+    "name": "Jack John V",
+    "address": "345 Some St",
+    "citation": true,
+    "citationResults": {
+      "violation": "123455",
+      "violationDate": "01/01/2012",
+      "isScumbag": true
+    }
+}
+{
+    "name": "Jack John VI",
+    "address": "678 Some St",
+    "citation": true,
+    "citationResults": {
+      "violation": "123456",
+      "violationDate": "01/01/2011",
+      "isScumbag": false
+    }
+}

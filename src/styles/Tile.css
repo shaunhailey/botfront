@@ -1,0 +1,10 @@
+.tileWrapper {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(235, 197, 0);
+  background-color: rgb(0, 185, 235);
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-variant: small-caps slashed-zero;
+  font-family: system-ui;
+}
