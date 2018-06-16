@@ -5,7 +5,7 @@ import '../styles/BaseLayout.css'
 class BaseLayout extends Component {
   render() {
     return (
-      <div class="wrapper">
+      <div className="wrapper">
         <TileContainer />
       </div>
     )

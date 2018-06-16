@@ -12,8 +12,8 @@ class TileContainer extends Component {
 
   render() {
     return (
-      <div class="box" id="1">
-        <div class="table1">
+      <div className="box" id="1">
+        <div className="table1">
           <Tile />
           <Tile />
           <Tile />
