@@ -1,5 +1,11 @@
+.html {
+  height: 100%;
+}
 .App {
   text-align: center;
+  position: relative;
+  height: 100%;
+  background-color: rgb(190, 143, 99);
 }
 
 .App-logo {
@@ -12,6 +18,9 @@
   height: 150px;
   padding: 20px;
   color: white;
+  font-variant: small-caps slashed-zero;
+  font-family: system-ui;
+  text-shadow: 1px 1px 2px black;
 }
 
 .App-title {
