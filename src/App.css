@@ -5,7 +5,7 @@
   text-align: center;
   position: relative;
   height: 100%;
-  background-color: rgb(190, 143, 99);
+  background-color: rgb(194, 214, 219);
 }
 
 .App-logo {
@@ -14,10 +14,10 @@
 }
 
 .App-header {
-  background-color: rgb(190, 143, 99);
+  background-color: rgb(194, 214, 219);
   height: 150px;
   padding: 20px;
-  color: white;
+  color: rgb(33, 111, 131);
   font-variant: small-caps slashed-zero;
   font-family: system-ui;
   text-shadow: 1px 1px 2px black;
@@ -25,6 +25,7 @@
 
 .App-title {
   font-size: 1.5em;
+  color: rgb(251, 254, 255);
 }
 
 .App-intro {
@@ -38,4 +39,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+img {
+  width: 20%;
 }

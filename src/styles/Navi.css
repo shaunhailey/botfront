@@ -1,0 +1,28 @@
+.navi {
+  height: 35px;
+  width: 100%;
+  color: rgb(194, 214, 219);
+  text-shadow: 0.5px 0.5px 1px black;
+  font-variant: small-caps slashed-zero;
+  font-family: system-ui;
+  -webkit-box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 1);
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 1);
+  background-color: rgb(90, 213, 136);
+  display: flex;
+  justify-content: space-around;
+}
+.barf {
+  background-color: rgb(194, 214, 219);
+  color: rgb(194, 214, 219);
+}
+.doubleBarf {
+  background-color: rgb(194, 214, 219);
+  font-variant: small-caps slashed-zero;
+  font-family: system-ui;
+}
+.tripleBarf {
+  background-color: rgb(194, 214, 219);
+  font-variant: small-caps slashed-zero;
+  font-family: system-ui;
+}

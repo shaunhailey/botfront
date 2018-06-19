@@ -3,8 +3,22 @@
   border-width: thin;
   border-color: rgb(235, 197, 0);
   background-color: rgb(0, 185, 235);
-  color: white;
-  text-shadow: 1px 1px 2px black;
+  color: rgb(194, 214, 219);
+  text-shadow: 0.5px 0.5px 1px black;
   font-variant: small-caps slashed-zero;
   font-family: system-ui;
+  -webkit-box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 1);
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 1);
+  transition: background-color .5s;
+  -webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+.tileWrapper:hover {
+  background-color: rgb(90, 213, 136);
+  -webkit-box-shadow: 2px 4px 25px 10px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 4px 25px 10px rgba(0, 0, 0, 1);
+  box-shadow: 2px 4px 25px 10px rgba(0, 0, 0, 1);
+  /* -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); */
 }
