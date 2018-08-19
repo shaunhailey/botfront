@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={netsvs} className="App-logo" alt="logo" />
-          <h1 className="App-title">Trash Bot Front End</h1>
+          <h1 className="App-title">Front End</h1>
         </header>
         <BaseLayout />
       </div>
