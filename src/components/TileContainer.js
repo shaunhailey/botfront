@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Tile from './Tile.js'
+import TileDetail from './TileDetail.js'
 import '../styles/TileContainer.css'
 
 class TileContainer extends Component {
@@ -14,23 +15,6 @@ class TileContainer extends Component {
     return (
       <div className="box" id="1">
         <div className="table1">
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
-          <Tile />
           <Tile />
           <Tile />
           <Tile />

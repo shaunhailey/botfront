@@ -1,0 +1,32 @@
+.tileImageContainer {
+  height: fit-content;
+  /* border-style: dashed;
+  border-color: green;
+  border-width: thick; */
+}
+.tileImage {
+  width: 500px;
+  /* border-style: dashed;
+  border-color: red;
+  border-width: thick; */
+}
+.tileDetailWrapper {
+  /* border-style: dashed;
+  border-color: orange;
+  border-width: thick; */
+  width: 100%;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.tileSuperDetailWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  color: rgb(194, 214, 219);
+  text-shadow: 0.5px 0.5px 1px black;
+  font-variant: small-caps slashed-zero;
+  font-family: system-ui;
+  background-color: rgb(0, 185, 235);
+}

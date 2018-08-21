@@ -23,7 +23,7 @@ class Navi extends Component {
         <div className="search">
           <form action="" method="post">
             <div className="barforama">
-              <label for="GET-query">Query: </label>
+              <label htmlFor="GET-query">Query: </label>
               <input id="GET-name" type="text" name="name" className="barf" />
               <input type="submit" value="Save" className="doubleBarf" />
             </div>

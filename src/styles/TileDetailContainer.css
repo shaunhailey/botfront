@@ -1,0 +1,9 @@
+.tileDetailContainerWrapper {
+  background-color: rgb(194, 214, 219);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.part1 {
+  width: 100%;
+}

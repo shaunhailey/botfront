@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import TileDetailContainer from './TileDetailContainer.js'
 import TileContainer from './TileContainer.js'
 import Footer from './Footer.js'
 import Navi from './Navi.js'
@@ -10,8 +11,9 @@ class BaseLayout extends Component {
     return (
       <div className="wrapper">
         <Navi />
-        <Header />
-        <TileContainer />
+        {/*<Header />*/}
+        <TileDetailContainer />
+        {/*<TileContainer />*/}
         <Footer />
       </div>
     )

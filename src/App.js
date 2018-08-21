@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import './App.css'
 import BaseLayout from './components/BaseLayout.js'
-import netsvs from './netsvslogo.png'
+import netsvs from './images/Logo_trans_netsvs.png'
 
 class App extends Component {
   render() {
@@ -10,7 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={netsvs} className="App-logo" alt="logo" />
-          <h1 className="App-title">Front End</h1>
+          <h1 className="App-title">Demo Bot 5000</h1>
         </header>
         <BaseLayout />
       </div>
