@@ -1,60 +1,254 @@
-{
-    "name": "Jack John",
-    "address": "123 Some St",
-    "citation": true,
-    "citationResults": {
-      "violation": "123451",
-      "violationDate": "01/01/2016",
-      "isScumbag": true
+const houses =
+  { "house1":
+    {
+      "name": "Jack John",
+      "address": "123 The St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123451",
+        "violationDate": "01/01/2016",
+        "active": true
+      }
     }
-}
-{
-    "name": "Jack John II",
-    "address": "456 Some St",
-    "citation": true,
-    "citationResults": {
-      "violation": "123452",
-      "violationDate": "01/01/2015",
-      "isScumbag": false
+  }
+  { "house2":
+    {
+      "name": "Jack John II",
+      "address": "456 Some St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123452",
+        "violationDate": "01/01/2015",
+        "active": false
+      }
     }
-}
-{
-    "name": "Jack John III",
-    "address": "789 Some St",
-    "citation": true,
-    "citationResults": {
-      "violation": "123453",
-      "violationDate": "01/01/2014",
-      "isScumbag": true
+  }
+  { "house3":
+    {
+      "name": "Jack John III",
+      "address": "789 Lonesome Ln",
+      "citation": true,
+      "citationResults": {
+        "violation": "123453",
+        "violationDate": "01/01/2014",
+        "active": true
+      }
     }
-}
-{
-    "name": "Jack John IV",
-    "address": "012 Some St",
-    "citation": true,
-    "citationResults": {
-      "violation": "123454",
-      "violationDate": "01/01/2013",
-      "isScumbag": false
+  }
+  { "house4":
+    {
+      "name": "Zephyr Nordschlife",
+      "address": "012 Somney St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123454",
+        "violationDate": "01/01/2013",
+        "active": false
+      }
     }
-}
-{
-    "name": "Jack John V",
-    "address": "345 Some St",
-    "citation": true,
-    "citationResults": {
-      "violation": "123455",
-      "violationDate": "01/01/2012",
-      "isScumbag": true
+  }
+  { "house5":
+    {
+      "name": "Ruella Walterson",
+      "address": "345 Sonne St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123455",
+        "violationDate": "01/01/2012",
+        "active": true
+      }
     }
-}
-{
-    "name": "Jack John VI",
-    "address": "678 Some St",
-    "citation": true,
-    "citationResults": {
-      "violation": "123456",
-      "violationDate": "01/01/2011",
-      "isScumbag": false
+  }
+  {"house6":
+    {
+      "name": "Greenberry Tucker",
+      "address": "1776 Revolution Way",
+      "citation": true,
+      "citationResults": {
+        "violation": "123456",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
     }
+  }
+  { "house7":
+    {
+      "name": "Birdie Beatrice",
+      "address": "1898 War Ave",
+      "citation": true,
+      "citationResults": {
+        "violation": "123457",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  { "house8":
+    {
+      "name": "Squire Alfred",
+      "address": "50 Juneau Hwy",
+      "citation": true,
+      "citationResults": {
+        "violation": "123458",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  { "house9":
+    {
+      "name": "Rubel Murray",
+      "address": "40 Skagway Ln",
+      "citation": true,
+      "citationResults": {
+        "violation": "123459",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house10":
+    {
+      "name": "Ledward Luton",
+      "address": "2 Canne St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123460",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house11":
+    {
+      "name": "Albrecht Johann",
+      "address": "3 Fore Ave",
+      "citation": true,
+      "citationResults": {
+        "violation": "123461",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house12":
+    {
+      "name": "Steve John",
+      "address": "89 Flounder Ln",
+      "citation": true,
+      "citationResults": {
+        "violation": "123462",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house13":
+    {
+      "name": "Jed John",
+      "address": "34 Toolbox Ct",
+      "citation": true,
+      "citationResults": {
+        "violation": "123463",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house14":
+    {
+      "name": "Thomas John",
+      "address": "129 W 81st St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123464",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house15":
+    {
+      "name": "Nathan John",
+      "address": "1 May Cir",
+      "citation": true,
+      "citationResults": {
+        "violation": "123465",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house16":
+    {
+      "name": "Lance John",
+      "address": "14976 1st St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123466",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house17":
+    {
+      "name": "Howie John",
+      "address": "10 Water St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123467",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house18":
+    {
+      "name": "Fred John",
+      "address": "1678 Broad St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123468",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house19":
+    {
+      "name": "Walter John",
+      "address": "68 Main St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123469",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house20":
+    {
+      "name": "Bill John",
+      "address": "6718 Sommer St",
+      "citation": true,
+      "citationResults": {
+        "violation": "123470",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
+  {"house21":
+    {
+      "name": "Shaun John",
+      "address": "2318 W Marquette Ave",
+      "citation": true,
+      "citationResults": {
+        "violation": "123471",
+        "violationDate": "01/01/2011",
+        "active": false
+      }
+    }
+  }
 }

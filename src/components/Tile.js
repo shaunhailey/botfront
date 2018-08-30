@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import TileCompiler from './TileCompiler.js'
 import '../styles/Tile.css'
 
 class Tile extends Component {
