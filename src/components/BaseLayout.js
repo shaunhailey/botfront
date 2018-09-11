@@ -8,28 +8,22 @@ import '../styles/BaseLayout.css'
 let mode = ''
 
 class BaseLayout extends Component {
-  handleTileDetailBackClick = e => {
-    this.setState(state => ({
-      tileSelected: this.state.key,
-      mode: 'tile'
-    }))
-  }
-
-  handleTileClick = e => {
-    if (e.target.key !== 'none') {
-      const name = e.target.key
-    }
+  constructor(props) {
+    super(props)
+    this.state = { key: this.props.key, mode: 'tile' }
   }
 
   render() {
-    const tileDetail = this.props.tileDetail
+    const tileDetail = this.state.key
     let viewComponent
 
-    if (mode === 'tile') {
-      viewComponent = <TileDetailContainer key={this.props.mode} name={this.props.tileSelected} />
+    if (mode === 'detail') {
+      viewComponent = '<' + { tileDetail } + ' />'
     } else {
-      viewComponent = <TileContainer onclick={this.props.mode} />
+      viewComponent = <TileContainer />
     }
+    console.log(viewComponent)
+    console.log(this.state.mode)
     return (
       <div className="wrapper">
         <Navi />

@@ -4,7 +4,7 @@ import '../styles/Tile.css'
 class Tile20 extends Component {
   render() {
     return (
-      <div className="tileWrapper" onclick="_tileClick">
+      <div className="tileWrapper">
         <div>6718 Sommer St</div>
         <div>Miami</div>
         <div>FL</div>
