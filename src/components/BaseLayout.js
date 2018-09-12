@@ -10,14 +10,16 @@ let mode = ''
 class BaseLayout extends Component {
   constructor(props) {
     super(props)
-    this.state = { id: this.props.id, mode: this.props.mode }
+    this.state = { id: 'cat', mode: 'dog' }
+    this.handleTileClick = this.handleTileClick.bind(this)
   }
 
   handleTileClick(e) {
-    console.log(e)
-    console.log(e.target.id.toString())
-    console.log(e.target.mode)
-    this.props.handleTileClick()
+    console.log('cat and dog')
+    this.setState = { id: this.props.id, mode: this.props.mode }
+    // console.log(e.target.id.toString())
+    // console.log(e.target.mode)
+    // this.props.handleTileClick(e)
   }
 
   render() {
@@ -29,7 +31,20 @@ class BaseLayout extends Component {
     return (
       <div className="wrapper">
         <Navi />
-        <TileContainer id={id} mode={mode} />
+        <h1>
+          {this.state.id}
+        </h1>
+        <h1>
+          {this.state.mode}
+        </h1>
+        <h1>
+          {this.props.id}
+        </h1>
+        <h1>
+          {this.props.mode}
+        </h1>
+
+        <TileContainer id={id} mode={mode} handleTileClick={this.handleTileClick} />
         <Footer />
       </div>
     )

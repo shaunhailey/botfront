@@ -30,27 +30,30 @@ class TileContainer extends Component {
     return (
       <div className="box" id="1">
         <div className="table1">
-          <Tile1 id="TileDetail01" mode="detail" onClick={e => this.props.handleTileClick(id, mode)} />
-          <Tile2 id="TileDetail02" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile3 id="TileDetail03" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile4 id="TileDetail04" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile5 id="TileDetail05" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile6 id="TileDetail06" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile7 id="TileDetail07" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile8 id="TileDetail08" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile9 id="TileDetail09" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile10 id="TileDetail10" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile11 id="TileDetail11" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile12 id="TileDetail12" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile13 id="TileDetail13" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile14 id="TileDetail14" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile15 id="TileDetail15" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile16 id="TileDetail16" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile17 id="TileDetail17" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile18 id="TileDetail18" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile19 id="TileDetail19" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile20 id="TileDetail20" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
-          <Tile21 id="TileDetail21" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <h1>
+            {this.props.handleTileClick()}
+          </h1>
+          <Tile1 id="TileDetail01" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile2 id="TileDetail02" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile3 id="TileDetail03" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile4 id="TileDetail04" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile5 id="TileDetail05" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile6 id="TileDetail06" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile7 id="TileDetail07" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile8 id="TileDetail08" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile9 id="TileDetail09" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile10 id="TileDetail10" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile11 id="TileDetail11" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile12 id="TileDetail12" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile13 id="TileDetail13" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile14 id="TileDetail14" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile15 id="TileDetail15" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile16 id="TileDetail16" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile17 id="TileDetail17" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile18 id="TileDetail18" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile19 id="TileDetail19" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile20 id="TileDetail20" mode="detail" onClick={this.props.handleTileClick()} />
+          <Tile21 id="TileDetail21" mode="detail" onClick={this.props.handleTileClick()} />
         </div>
       </div>
     )
