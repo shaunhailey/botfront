@@ -10,24 +10,26 @@ let mode = ''
 class BaseLayout extends Component {
   constructor(props) {
     super(props)
-    this.state = { key: this.props.key, mode: 'tile' }
+    this.state = { id: this.props.id, mode: this.props.mode }
+  }
+
+  handleTileClick(e) {
+    console.log(e)
+    console.log(e.target.id.toString())
+    console.log(e.target.mode)
+    this.props.handleTileClick()
   }
 
   render() {
-    const tileDetail = this.state.key
-    let viewComponent
-
-    if (mode === 'detail') {
-      viewComponent = '<' + { tileDetail } + ' />'
-    } else {
-      viewComponent = <TileContainer />
-    }
-    console.log(viewComponent)
+    const id = this.props.id
+    console.log(this.state.id)
     console.log(this.state.mode)
+    console.log(this.props.id)
+    console.log(this.props.mode)
     return (
       <div className="wrapper">
         <Navi />
-        {viewComponent}
+        <TileContainer id={id} mode={mode} />
         <Footer />
       </div>
     )

@@ -23,48 +23,34 @@ import Tile21 from './Tile21.js'
 import '../styles/TileContainer.css'
 
 class TileContainer extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      key: null,
-      mode: 'tile'
-    }
-  }
-  handleTileClick(e) {
-    const key = e.target.key
-    const mode = e.target.mode
-    this.setState(state => ({
-      key: '',
-      mode: ''
-    }))
-  }
-
   render() {
-    console.log(this.state.key)
+    const id = this.props.id
+    const { mode } = this.props.mode
+    console.log(this.props.id)
     return (
       <div className="box" id="1">
         <div className="table1">
-          <Tile1 key="TileDetail01" mode="detail" onClick={this.handleTileClick} />
-          <Tile2 key="TileDetail02" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile3 key="TileDetail03" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile4 key="TileDetail04" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile5 key="TileDetail05" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile6 key="TileDetail06" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile7 key="TileDetail07" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile8 key="TileDetail08" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile9 key="TileDetail09" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile10 key="TileDetail10" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile11 key="TileDetail11" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile12 key="TileDetail12" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile13 key="TileDetail13" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile14 key="TileDetail14" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile15 key="TileDetail15" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile16 key="TileDetail16" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile17 key="TileDetail17" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile18 key="TileDetail18" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile19 key="TileDetail19" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile20 key="TileDetail20" mode="detail" onClick={e => this.handleTileClick(e)} />
-          <Tile21 key="TileDetail21" mode="detail" onClick={e => this.handleTileClick(e)} />
+          <Tile1 id="TileDetail01" mode="detail" onClick={e => this.props.handleTileClick(id, mode)} />
+          <Tile2 id="TileDetail02" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile3 id="TileDetail03" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile4 id="TileDetail04" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile5 id="TileDetail05" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile6 id="TileDetail06" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile7 id="TileDetail07" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile8 id="TileDetail08" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile9 id="TileDetail09" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile10 id="TileDetail10" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile11 id="TileDetail11" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile12 id="TileDetail12" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile13 id="TileDetail13" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile14 id="TileDetail14" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile15 id="TileDetail15" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile16 id="TileDetail16" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile17 id="TileDetail17" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile18 id="TileDetail18" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile19 id="TileDetail19" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile20 id="TileDetail20" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
+          <Tile21 id="TileDetail21" mode="detail" onClick={() => this.props.handleTileClick(id, mode)} />
         </div>
       </div>
     )

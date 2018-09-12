@@ -5,7 +5,7 @@ import '../styles/Tile.css'
 class Tile1 extends Component {
   render() {
     return (
-      <div className="tileWrapper">
+      <div className="tileWrapper" id="TileDetail01" mode="detail">
         <div>123 The St</div>
         <div>Miami</div>
         <div>FL</div>
